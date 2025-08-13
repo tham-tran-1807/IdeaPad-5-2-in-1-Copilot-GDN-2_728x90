@@ -523,6 +523,7 @@ if (reversed == null) { reversed = false; }
 		
 		function fl_MouseClickHandler()
 		{
+			globalThis.notRedirect=true;
 			// Start your custom code
 			// This example code displays the words "Mouse clicked" in the Output panel.
 			this.gotoAndPlay(0);
